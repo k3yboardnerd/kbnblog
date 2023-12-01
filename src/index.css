@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Monsterrat;
+  src: url('./assets/libs/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/libs/Poppins/Poppins-Thin.ttf');
+  font-weight: 100;
+}
+
+
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.preview-title {
+  margin: 0 auto;
+  padding: 50% 0;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 800;
+  color: #999999;
+  opacity: 0.5;
+}
+
+.article {
+  width: 100%;
+  line-height: 1.5;
+}
+
+.article h1 {
+  font-size: 1.5rem;
+  font-family: Montserrat;
+}
+
+.article h2 {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  transform: translateX(-5px);
+}
+
+.article h2:after {
+  content: '';
+  display: block;
+  height: 8px;
+  max-width: 10%;
+  background-color: rgba(124,58,237, 0.6);
+  transform: skewX(-21deg) translateY(-8px);
+  border-radius: 3px;
+}
+
+.article p {
+  font-size: 0.8rem;
+  font-family: Poppins;
+}
+
+.article em {
+  font-size: 0.8rem;
+  font-family: Poppins;
+  font-style: italic;
+  color: #999999;
+  transform: translateX(-5px);
+}
+
+.article a {
+  text-decoration: underline 2px;
+  text-underline-position: below;
+  font-family: Poppins;
+}
+
+.article img,
+.article iframe {
+  width: 100%;
+  object-fit: cover;
+}
+
+.article img {
+  max-height: 300px;
+}
+
+.article iframe {
+  height: 300px;
+}

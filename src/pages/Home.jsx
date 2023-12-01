@@ -1,0 +1,26 @@
+/* eslint-disable react/prop-types */
+// import CategoryList from "../components/CategoryList"
+import PostCard from "../components/PostCard"
+import { AiOutlineReload } from "react-icons/ai"
+import { useGetPostsQuery } from "../features/posts/postsApiSlice"
+import { Footer } from "../components/Footer"
+
+export default function Home() {
+
+  const { data: posts, isLoading } = useGetPostsQuery(null,{
+    pollingInterval: 1000,
+    refetchOnMountOrArgChange: true
+  })
+  
+  return (
+    <div className="px-2 pt-6 m-auto flex max-w-screen-2xl h-full flex-col items-center space-y-6 lg:px-16 xl:px-20 2xl:px-24">
+      {/* <CategoryList /> */}
+      {isLoading ? <AiOutlineReload className="animate-spin text-4xl m-1" /> :
+        <div className="w-full flex flex-col items-center gap-2 space-y-1 sm:justify-items-center sm:items-end sm:grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
+        {posts?.map(post => (<PostCard key={post._id} id={post._id} createdAt={post.createdAt.toString()} authorId={post.author._id} authorName={post.author.name} authorAvatar={post.author.photo} title={post.title} category={post.category} image={post.cover} />))}
+        </div>
+      }
+      <Footer />
+    </div>
+  )
+}

@@ -2,7 +2,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: ''
+  baseUrl: 'https://kbnblog-api.onrender.com/api'
 })
 
 export const apiSlice = createApi({

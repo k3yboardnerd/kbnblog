@@ -1,5 +1,13 @@
 
 
+## [0.3.0](https://github.com/k3yboardnerd/kbnblog/compare/0.2.3...0.3.0) (2023-12-04)
+
+
+### Features
+
+* updated topics ([53f54a2](https://github.com/k3yboardnerd/kbnblog/commit/53f54a2ff470b3a176c396cb52289c897557147e))
+* updated topics ([40d4545](https://github.com/k3yboardnerd/kbnblog/commit/40d4545c164e2af2e09079c169bd878b69c004e6))
+
 ## [0.2.3](https://github.com/k3yboardnerd/kbnblog/compare/0.2.1...0.2.3) (2023-12-04)
 
 

@@ -17,7 +17,7 @@ export default function Edit() {
   const [description, setDescription] = useState("")
   const [cover, setCover] = useState("")
   const [isCoverUploaded, setIsCoverUploaded] = useState(false)
-  const options = ["A.I", "Tech", "Music"]
+  const options = ["A.I", "Tech", "Security", "Cyber Security"]
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const { userInfo } = useSelector((state) => state.auth)
@@ -99,7 +99,8 @@ export default function Edit() {
               <select onChange={(e) => handleOptions(e)} required className="ring-2 ring-violet-400 rounded-md p-2 w-[97.9%] self-center my-2 hover:ring-violet-600 focus:ring-violet-800 " name="category" id="category">
                 <option value="ai">A.I</option>
                 <option value="tech">Tech</option>
-                <option value="music">Music</option>
+                <option value="security">Security</option>
+                <option value="cyber security">Cyber Security</option>
               </select>
               <label className="flex gap-2 items-center justify-between w-[98%] group bg-violet-200 hover:bg-violet-300 focus:bg-violet-600 active:bg-violet-800 p-4 rounded-lg self-center cursor-pointer" htmlFor="cover">
                 <input onChange={(e) => handleFileUplaod(e)} required type="file" name="cover" id="cover" className="hidden" accept=".jpg, .jpeg, .png, .gif" />

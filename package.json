@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "host": "vite --host",
-    "release": "npx dotenv release-it"
+    "release": "release-it"
   },
   "dependencies": {
     "@commitlint/cli": "^18.4.3",

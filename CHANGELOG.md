@@ -1,5 +1,12 @@
 
 
+## [0.2.1](https://github.com/k3yboardnerd/kbnblog/compare/0.2.0...0.2.1) (2023-12-04)
+
+
+### Bug Fixes
+
+* rewrited the README file ([d4ebef2](https://github.com/k3yboardnerd/kbnblog/commit/d4ebef26a307dea0494e418ba22ac35a73da369d))
+
 ## 0.2.0 (2023-12-04)
 
 

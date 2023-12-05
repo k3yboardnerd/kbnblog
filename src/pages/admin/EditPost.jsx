@@ -58,7 +58,7 @@ export default function Edit() {
         setBody('')
         setCover('')
         setIsCoverUploaded((prev) => !prev)
-        navigate('/kbn/postst')
+        navigate('/kbn/posts')
       } catch (err) {
         toast.error(err?.data?.message || err.error)
       }

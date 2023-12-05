@@ -7,20 +7,22 @@ import moment from "moment"
 import { BiShareAlt } from "react-icons/bi"
 import {FacebookShareButton, TwitterShareButton, WhatsappShareButton, LinkedinShareButton, FacebookIcon, XIcon, WhatsappIcon, LinkedinIcon} from "react-share"
 import { useState } from "react"
+import { useSelector } from "react-redux"
 // eslint-disable-next-line react/prop-types
 export default function PostCard({ title, id, category, image, authorAvatar, authorName, createdAt }) {
   const [isSharing, setIsSharing] = useState(false)
+  const {subscriberInfo} = useSelector((state) => state.subscriber) || {}
   const handleShare = () => {
     setIsSharing((sharing) => !sharing)
   }
   return (
     <div className="w-[95%] h-[350px] bg-white shadow-md rounded-lg relative">
-      <Link to={`/${id}`}>
+      <Link to={`/${id}/${subscriberInfo._id}`}>
         <img src={image} alt="" className="w-full h-[60%] object-cover rounded-t-lg" />
       </Link>
       <div className="px-5 py-4 space-y-3">
         <h4 className="text-sm font-medium text-slate-500">{category}</h4>
-        <h1 className="truncate font-bold text-xl"><Link to={`/${id}`}>{title}</Link></h1>
+        <h1 className="truncate font-bold text-xl"><Link to={`/${id}/${subscriberInfo._id}`}>{title}</Link></h1>
         <div className="flex justify-between items-center">
           <Link to="/about" className="flex justify-between gap-2 items-center">
             <img src={authorAvatar} alt={authorName} className="w-10 h-10 rounded-full object-cover" />

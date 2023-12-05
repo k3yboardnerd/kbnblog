@@ -31,7 +31,7 @@ export default function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/:postId" element={<Post />} />
+            <Route path="/:postId/:subId" element={<Post />} />
             {/* <Route path="/promotion" element={<Promotion />} /> */}
           </Route>
 

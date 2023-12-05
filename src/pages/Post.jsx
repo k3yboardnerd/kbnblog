@@ -14,10 +14,9 @@ import { useState } from "react"
 import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterShareButton, WhatsappIcon, WhatsappShareButton, XIcon } from "react-share"
 
 export default function Post() {
-  const { postId } = useParams()
+  const {postId, subId} = useParams()
   const { subscriberInfo } = useSelector((state) => state.subscriber) || {}
-  const { data: post, isLoading } = useGetPostByIdQuery({id: postId, data: subscriberInfo})
-
+  const { data: post, isLoading } = useGetPostByIdQuery({postId, subId})
   const [isSharing, setIsSharing] = useState(false)
 
   const handleShare = () => {

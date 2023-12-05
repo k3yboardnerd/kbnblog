@@ -8,7 +8,11 @@ export const postsApiSlice = apiSlice.injectEndpoints({
       query: () => (`${POSTS_URL}/`)
     }),
     getPostById: builder.query({
-      query: (id) => (`${POSTS_URL}/${id}`),
+      query: ({ id, data }) => (
+        {
+          url: `${POSTS_URL}/${id}`,
+          body: data
+        }),
       // providesTags: (result, error, id) => [{ type: 'Post', id }],
       // transformResponse: (response) => response.data,
       transformErrorResponse: (response) => response.error

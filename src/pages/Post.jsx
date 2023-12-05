@@ -15,8 +15,8 @@ import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, T
 
 export default function Post() {
   const { postId } = useParams()
-  const { data: post, isLoading } = useGetPostByIdQuery(postId)
   const { subscriberInfo } = useSelector((state) => state.subscriber) || {}
+  const { data: post, isLoading } = useGetPostByIdQuery({id: postId, data: subscriberInfo})
 
   const [isSharing, setIsSharing] = useState(false)
 

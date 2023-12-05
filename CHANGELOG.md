@@ -1,5 +1,12 @@
 
 
+## [0.3.1](https://github.com/k3yboardnerd/kbnblog/compare/0.3.0...0.3.1) (2023-12-05)
+
+
+### Bug Fixes
+
+* add the github token ([37a3449](https://github.com/k3yboardnerd/kbnblog/commit/37a344919b87a258461bd9876de63985ac04b2b9))
+
 ## [0.3.0](https://github.com/k3yboardnerd/kbnblog/compare/0.2.3...0.3.0) (2023-12-04)
 
 

@@ -1,5 +1,12 @@
 
 
+## [0.5.0](https://github.com/k3yboardnerd/kbnblog/compare/0.4.0...0.5.0) (2023-12-05)
+
+
+### Features
+
+* add the views tracker feature support ([0d7de34](https://github.com/k3yboardnerd/kbnblog/commit/0d7de349bfbacee8a9483e4a0d581ccaa058b237))
+
 ## [0.4.0](https://github.com/k3yboardnerd/kbnblog/compare/0.3.1...0.4.0) (2023-12-05)
 
 

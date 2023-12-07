@@ -115,7 +115,11 @@ export const CommentForm = ({ postId }) => {
         <label className="font-medium font-sans text-slate-600 px-1" htmlFor="comment">Write Comment</label>
         <textarea value={comment} onChange={(e) => setComment(e.target.value)} className="ring-2 ring-violet-400 rounded-md p-2 w-[98%] self-center my-2 resize-y hover:ring-violet-600 focus:ring-violet-800 " name="comment" id="comment" cols="30" rows="2"></textarea>
       </div>
-      {subscriberInfo.donationTotal >= 1 ? comment.length >= 2 && <button className="bg-violet-600 ring-4 ring-transparent hover:bg-violet-800 focus:bg-violet-950 active:bg-violet-950 focus:ring-violet-600 text-lg flex items-center justify-center py-2 px-1 rounded-lg font-semibold uppercase tracking-wide gap-2 text-violet-100 self-center w-[98%]" type="submit">{isLoading ? <AiOutlineReload className="animate-spin text-2xl m-1" /> : "Send"}</button> : comment.length >= 2 && <Link to="/donation" className="m-auto underline text-violet-600 text-xs">A minimum of $1.00 donation is required to comment.</Link>}
+      {
+        // subscriberInfo.donationTotal >= 1 ?
+          comment.length >= 2 && <button className="bg-violet-600 ring-4 ring-transparent hover:bg-violet-800 focus:bg-violet-950 active:bg-violet-950 focus:ring-violet-600 text-lg flex items-center justify-center py-2 px-1 rounded-lg font-semibold uppercase tracking-wide gap-2 text-violet-100 self-center w-[98%]" type="submit">{isLoading ? <AiOutlineReload className="animate-spin text-2xl m-1" /> : "Send"}</button>
+        // : comment.length >= 2 && <Link to="/donation" className="m-auto underline text-violet-600 text-xs">A minimum of $1.00 donation is required to comment.</Link>
+      }
     </form>
   )
 }

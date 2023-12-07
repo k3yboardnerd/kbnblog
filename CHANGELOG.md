@@ -1,5 +1,12 @@
 
 
+## [0.5.2](https://github.com/k3yboardnerd/kbnblog/compare/0.5.1...0.5.2) (2023-12-07)
+
+
+### Bug Fixes
+
+* **package.json:** adding the scripts for release management ([43d9c9d](https://github.com/k3yboardnerd/kbnblog/commit/43d9c9ddbb0a036e9bb320a91bb19f482d723965))
+
 ## [0.5.1](https://github.com/k3yboardnerd/kbnblog/compare/0.5.0...0.5.1) (2023-12-07)
 
 

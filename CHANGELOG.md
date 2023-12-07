@@ -1,5 +1,12 @@
 
 
+## [0.5.1](https://github.com/k3yboardnerd/kbnblog/compare/0.5.0...0.5.1) (2023-12-07)
+
+
+### Bug Fixes
+
+* **.gitignore:** removed the vscode ext config ([4f45ac0](https://github.com/k3yboardnerd/kbnblog/commit/4f45ac007908e6772ddc8972528d3497d9b205ce))
+
 ## [0.5.0](https://github.com/k3yboardnerd/kbnblog/compare/0.4.0...0.5.0) (2023-12-05)
 
 

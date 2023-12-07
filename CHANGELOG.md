@@ -1,5 +1,12 @@
 
 
+## [0.6.0](https://github.com/k3yboardnerd/kbnblog/compare/0.5.2...0.6.0) (2023-12-07)
+
+
+### Features
+
+* **comments:** add comments for everyone ([59e916a](https://github.com/k3yboardnerd/kbnblog/commit/59e916afcb9d0117a32f96867e7b5fe87586567b))
+
 ## [0.5.2](https://github.com/k3yboardnerd/kbnblog/compare/0.5.1...0.5.2) (2023-12-07)
 
 

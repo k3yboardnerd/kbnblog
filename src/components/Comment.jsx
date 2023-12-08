@@ -29,7 +29,7 @@ export const Comment = ({ id, authorId, authorName, auhtorAdmin, comment, date }
   const handleDelete = async (e) => {
     e.preventDefault()
     try {
-      const res = await deleteComment(id).unwrap()
+      await deleteComment(id).unwrap()
       if (isSuccess) {
         toast.success("Comment Deleted")
       }

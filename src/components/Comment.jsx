@@ -30,7 +30,7 @@ export const Comment = ({ id, authorId, authorName, auhtorAdmin, comment, date }
     e.preventDefault()
     try {
       await deleteComment(id).unwrap()
-      if (isSuccess) {
+      if (isSuccess ) {
         toast.success("Comment Deleted")
       }
     } catch (err) {

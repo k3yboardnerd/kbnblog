@@ -1,7 +1,7 @@
 {
   "name": "kbn.blog",
   "private": true,
-  "version": "0.6.0",
+  "version": "0.6.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,6 +23,7 @@
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.12.0",
     "react-quill": "^2.0.0",
     "react-redux": "^8.1.3",

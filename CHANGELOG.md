@@ -1,5 +1,13 @@
 
 
+## [0.6.2](https://github.com/k3yboardnerd/kbnblog/compare/0.6.0...0.6.2) (2023-12-11)
+
+
+### Bug Fixes
+
+* **comments:** comments feature lose code removal ([8be5290](https://github.com/k3yboardnerd/kbnblog/commit/8be529050973d633fba2b02a6eb1b6b9ca0c99ad))
+* fixed some bugs and added a new pkg ([4a643fc](https://github.com/k3yboardnerd/kbnblog/commit/4a643fc3274663019ae15ad31e624927061f3ac9))
+
 ## [0.6.1](https://github.com/k3yboardnerd/kbnblog/compare/0.6.0...0.6.1) (2023-12-08)
 
 

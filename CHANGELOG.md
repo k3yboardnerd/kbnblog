@@ -1,5 +1,12 @@
 
 
+## [0.6.6](https://github.com/k3yboardnerd/kbnblog/compare/0.6.5...0.6.6) (2023-12-12)
+
+
+### Bug Fixes
+
+* adding logo images ([70b7a7a](https://github.com/k3yboardnerd/kbnblog/commit/70b7a7a0fa82e4c496b1cfe7ec006ae6c8bed4cf))
+
 ## [0.6.5](https://github.com/k3yboardnerd/kbnblog/compare/0.6.4...0.6.5) (2023-12-12)
 
 

@@ -22,7 +22,10 @@ export default function Home() {
         <meta name="description" content="I am a dedicated and passionate person, who loves coding and learning, I created this blog to share my knowledge and also give insights in topics that relate to Tech, A.I, Security and Cyber Security." />
         <meta property="og:title" content="kbn. | Blog" />
         <meta property="og:description" content="I am a dedicated and passionate person, who loves coding and learning, I created this blog to share my knowledge and also give insights in topics that relate to Tech, A.I, Security and Cyber Security." />
-        <meta property="og:image" content="/assets/kbn1.png" />
+        <meta property="og:image" content="https://kbnblog.onrender.com/assets/kbn1.png" />
+        <meta property='og:image:type' content='image/jpeg' />
+        <meta property="og:image:width" content='400' />
+        <meta property="og:image:height" content='200' />
       </Helmet>
       {/* <CategoryList /> */}
       {isLoading ? <AiOutlineReload className="animate-spin text-4xl m-1" /> :

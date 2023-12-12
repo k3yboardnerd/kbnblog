@@ -1,5 +1,13 @@
 
 
+## [0.6.3](https://github.com/k3yboardnerd/kbnblog/compare/0.6.2...0.6.3) (2023-12-12)
+
+
+### Bug Fixes
+
+* adding logo images ([bd7e9e7](https://github.com/k3yboardnerd/kbnblog/commit/bd7e9e7e56dd1952e690809888bc7c1ad4083a24))
+* adding meta tags test ([3020b0f](https://github.com/k3yboardnerd/kbnblog/commit/3020b0fd277245eea72553a856aad64e67ffddba))
+
 ## [0.6.2](https://github.com/k3yboardnerd/kbnblog/compare/0.6.0...0.6.2) (2023-12-11)
 
 

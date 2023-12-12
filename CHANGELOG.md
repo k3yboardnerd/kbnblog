@@ -1,5 +1,12 @@
 
 
+## [0.7.0](https://github.com/k3yboardnerd/kbnblog/compare/0.6.6...0.7.0) (2023-12-12)
+
+
+### Features
+
+* **link sharing:** added link sharing meta tags and thumbnail ([a37ed94](https://github.com/k3yboardnerd/kbnblog/commit/a37ed9413a5beb4dd895a6921e94dd1cb1edbc9e))
+
 ## [0.6.6](https://github.com/k3yboardnerd/kbnblog/compare/0.6.5...0.6.6) (2023-12-12)
 
 

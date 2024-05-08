@@ -15,8 +15,10 @@ export const Header = () => {
 
       <div className="flex items-center justify-between gap-4">
         <HiOutlineBell />
+<Link href="/kbn/profile">
         <img className="h-10 w-10 rounded-full object-cover" src={userInfo.photo} alt={userInfo.name} />
         <h1 className="text-xs text-violet-500 font-sans">Hi {userInfo.name}</h1>
+</Link>
       </div>
     </div>
   )

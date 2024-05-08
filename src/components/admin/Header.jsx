@@ -1,5 +1,6 @@
 import { HiOutlineBell, HiOutlineSearch } from "react-icons/hi"
 import { useSelector } from "react-redux"
+import { Link } from "react-router-dom"
 
 
 export const Header = () => {

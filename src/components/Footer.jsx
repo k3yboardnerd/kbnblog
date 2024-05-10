@@ -20,7 +20,7 @@ export const Footer = () => {
   }
   return (
     <div className="flex flex-col items-center justify-between m-auto py-6">
-      {/* <Link to="/promotion" className="underline text-xs text-violet-600">Do you want to advertise or promote?</Link> */}
+      <Link to="/promotion" className="underline text-xs text-violet-600">Do you want to advertise or promote?</Link> 
       <ul className="text-2xl flex gap-6 text-violet-500 py-6 m-auto">
         <li><a href="https://t.me/k3yboardnerd"><FaTelegramPlane /></a></li>
         <li><a href="https://m.me/k3yboardnerd"><FaFacebookMessenger /></a></li>
@@ -32,7 +32,7 @@ export const Footer = () => {
         <Link className="underline" to='/about'>About</Link>
         <Link className="underline" to='/'>Posts</Link>
         <Link className="underline" to='/donation'>Donate</Link>
-        {/* <Link className="underline" to='/promotion'>Ads & Promos</Link> */}
+        <Link className="underline" to='/promotion'>Ads & Promos</Link>
         {subscriberInfo && <Link className="underline" onClick={handleLogout}>Logout</Link>}
       </div>
     </div>

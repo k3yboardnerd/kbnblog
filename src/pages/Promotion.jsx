@@ -24,7 +24,7 @@ export const Promotion = () => {
       <section className="w-[90%] py-6 px-4 grid grid-cols-1 grid-rows-3 place-items-center items-center justify-center content-center sm:grid-cols-3 sm:grid-rows-1 m-auto space-y-4">
         <div className="shadow-lg p-4 rounded-md flex flex-col space-y-6 w-[80%] sm:w-[60%]">
           <h1 className="text-3xl font-bold font-sans text-violet-950 m-auto p-1 rounded-lg">Basic</h1>
-          <h1 className="m-auto text-6xl font-medium text-violet-950"><small className="text-2xl">$</small>2<small className="text-3xl text-slate-200">.99</small></h1>
+          <h1 className="m-auto text-6xl font-medium text-violet-950"><small className="text-2xl">$</small>2<small className="text-3xl text-slate-200">,99</small></h1>
           <ul className="list-disc space-y-2">
             <li className="flex items-center gap-2 justify-between"><span className="text-sm font-semibold">Post list appearance</span><AiFillCheckCircle className="text-green-600" /></li>
             <li className="flex items-center gap-2 justify-between"><span className="text-sm font-semibold">In-post appearance</span><AiFillCheckCircle className="text-red-600" /></li>
@@ -34,7 +34,7 @@ export const Promotion = () => {
         </div>
         <div className="shadow-2xl p-4 rounded-md flex flex-col space-y-6 w-[80%] sm:w-[60%] bg-violet-50">
           <h1 className="text-3xl font-bold font-sans text-violet-950 m-auto p-1 rounded-lg">Urgent</h1>
-          <h1 className="m-auto text-6xl font-medium text-violet-950"><small className="text-2xl">$</small>5<small className="text-3xl text-slate-200">.99</small></h1>
+          <h1 className="m-auto text-6xl font-medium text-violet-950"><small className="text-2xl">$</small>5<small className="text-3xl text-slate-200">,99</small></h1>
           <ul className="list-disc space-y-2">
             <li className="flex items-center gap-2 justify-between"><span className="text-sm font-semibold">Post list appearance</span><AiFillCheckCircle className="text-green-600" /></li>
             <li className="flex items-center gap-2 justify-between"><span className="text-sm font-semibold">In-post appearance</span><AiFillCheckCircle className="text-green-600" /></li>
@@ -44,7 +44,7 @@ export const Promotion = () => {
         </div>
         <div className="shadow-lg p-4 rounded-md flex flex-col space-y-6 w-[80%] sm:w-[60%]">
           <h1 className="text-3xl font-bold font-sans text-violet-950 m-auto p-1 rounded-lg">Essential</h1>
-          <h1 className="m-auto text-6xl font-medium text-violet-950"><small className="text-2xl">$</small>9<small className="text-3xl text-slate-200">.99</small></h1>
+          <h1 className="m-auto text-6xl font-medium text-violet-950"><small className="text-2xl">$</small>9<small className="text-3xl text-slate-200">,99</small></h1>
           <ul className="list-disc space-y-2">
             <li className="flex items-center gap-2 justify-between"><span className="text-sm font-semibold">Post list appearance</span><AiFillCheckCircle className="text-green-600" /></li>
             <li className="flex items-center gap-2 justify-between"><span className="text-sm font-semibold">In-post appearance</span><AiFillCheckCircle className="text-green-600" /></li>

@@ -9,7 +9,7 @@ import EditPost from "./pages/admin/EditPost"
 import Post from "./pages/Post"
 import Donation from "./pages/Donation"
 import PrivateRoute from "./components/admin/PrivateRoute"
-// import { Promotion } from "./pages/Promotion"
+import { Promotion } from "./pages/Promotion"
 import { PayPalScriptProvider } from "@paypal/react-paypal-js"
 import { AdminLayout } from "./pages/admin/AdminLayout"
 import { Dashboard } from "./pages/admin/Dashboard"
@@ -32,7 +32,7 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/:postId/:subId" element={<Post />} />
-            {/* <Route path="/promotion" element={<Promotion />} /> */}
+            <Route path="/promotion" element={<Promotion />} />
           </Route>
 
           {/* kbn system */}

@@ -96,7 +96,7 @@ export default function Donation() {
           </div>
           :
           <div className="flex flex-col items-center pt-20 px-2 space-y-2">
-            <h1 className="text-lg font-sans font-black">Please subscribe or login and donate.</h1>
+            <h1 className="text-lg font-sans font-black text-center">Please subscribe or login and donate.</h1>
             <SubscribeCard />
           </div>
       }

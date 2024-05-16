@@ -28,8 +28,8 @@ export default function Home() {
         <meta property="og:image:height" content='200' />
       </Helmet>
       {/* <CategoryList /> */}
-      {isLoading ? <AiOutlineReload className="animate-spin text-4xl m-1" /> :
-        subscriberInfo ? 
+      {isLoading ? <AiOutlineReload className="animate-spin text-4xl m-1" /> {/*:
+        subscriberInfo ? */}
         
         <div className="w-full flex flex-col items-center gap-2 space-y-1 sm:justify-items-center sm:items-end sm:grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
         {posts?.map(post => (<PostCard key={post._id} id={post._id} createdAt={post.createdAt.toString()} authorId={post.author._id} authorName={post.author.name} authorAvatar={post.author.photo} title={post.title} category={post.category} image={post.cover} />))}
